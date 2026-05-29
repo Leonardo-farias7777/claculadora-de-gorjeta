@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,8 +7,44 @@
   <link href='/style.css' rel='stylesheet'>
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+  
+  <header>
+     <img src="./calculadora-de-gorjeta_base/images/logo.svg" alt="">
+  </header>
+  
+  <section class="informacoes">
+    <form action="">
+        <div class="conta">
+            <label for="conta">conta</label>
+
+         <div>
+            <img src="./calculadora-de-gorjeta_base/images/icon-dollar.svg" alt="icon-dollar">
+            <input type="number" name="conta" id="conta" placeholder="0">
+         </div>
+        </div>
+
+        <div class="gorjeta">
+         <label for="outra">selecioner a gorjeta %</label>
+         <div>
+            <input type="button" value="5%"> 
+            <input type="button" value="10%">
+            <input type="button" value="15%">
+            <input type="button" value="25%">
+            <input type="button" value="50%">
+            <input type="number" name="outra" id="outra" placeholder="outra">
+         </div>
+        </div>
+        <div class="pessoas">
+                 <label for="pessoas">Quantidade de Pessoas</label>
+                 <p id="erro">Não pode ser zero</p>
+         <div>
+            <img src="./calculadora-de-gorjeta_base/images//icon-person.svg" alt="icon-person">
+            <input type="number" name="Pessoas" id="Pessoas" >
+         </div>
+        </div>
+        
+    </form>
+</section>
 </body>
 </html>
+
