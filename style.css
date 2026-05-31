@@ -102,6 +102,10 @@
       background-color: var(--green-800);
       color: var(--white);
   }
+  .gorjeta .botao-ativo{
+    background-color: var(--light-green);
+    color: var(--green-800);
+  }
   
   .gorjeta .botao-ativo {
       background-color: var(--light-green);
