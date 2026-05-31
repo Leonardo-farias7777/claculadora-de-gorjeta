@@ -38,7 +38,8 @@
     }
 
     .conta,
-    .gorjeta {
+    .gorjeta,
+    .pessoas {
         margin-bottom: 2rem;
     }
 
@@ -116,4 +117,18 @@
     .pessoas #erro {
       display: none;
     }
-  
+   .resultados{
+    background-color: var(--green-800);
+    border-radius: 0.9375rem;
+    padding: 1.5rem;
+   }
+
+   .resultados div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+   }
+
+   .resultados{
+    color: var(--green-200);
+   }
